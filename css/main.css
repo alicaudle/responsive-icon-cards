@@ -81,3 +81,65 @@ body {
   }
 
 }
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .cards {
+    padding-left: 0;
+  }
+
+  .card {
+    display: inline-block;
+    vertical-align: top;
+    width: 32%;
+  }
+
+  .card-img {
+    display: block;
+    padding-left: .8rem;
+    padding-bottom: .1px;
+  }
+
+  .card-body {
+    display: block;
+    width: 100%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+  .card-img {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .card-body {
+    display: inline-block;
+    vertical-align: middle;
+    width: 74%;
+  }
+
+  .card {
+    width: 33%;
+  }
+
+}
