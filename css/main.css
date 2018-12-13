@@ -58,4 +58,26 @@ body {
     font-size: 100%;
   }
 
+  .card-img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: .4rem;
+    margin-bottom: .8rem;
+  }
+
+  .card-body {
+    display: inline-block;
+    vertical-align: middle;
+    width: 74%;
+    padding-left: .77rem;
+  }
+
+  .card {
+    width: 110%;
+  }
+
+  .card-body h2 {
+    margin-top: .5rem;
+  }
+
 }
